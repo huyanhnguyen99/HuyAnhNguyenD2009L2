@@ -1,0 +1,155 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-1 {
+    text-align: center;
+    height: 44px;
+}
+.menu-1:hover{
+    color: #A20A0A;
+    font-size: 19px;
+}
+.skew {
+    transform: skew(30deg);
+}
+.skew-2 {
+    transform: skew(-30deg);
+}
+.h1-2 {
+    font-family: 'Andika';
+    font-size: 28px;
+    color: #222831;
+}
+
+.menu-1 {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Andika';
+    color: #222831;
+}
+.menu-2 {
+    text-decoration: none;
+    font-family: 'Saira Stencil One';
+    font-size: 24px;
+    color: #222831;
+}
+.box-2 {
+    text-align: center;
+    height: 498px;
+}
+.h1 {
+    font-family: 'Cherish';
+    font-size: 100px;
+    color: #EEEEEE;
+}
+.content-1 {
+    font-size: 20px;
+    color: #EEEEEE;
+    line-height: 30px;
+    word-spacing: 3.5px;
+}
+.box-3 {
+    height: 400px;
+}
+.png{
+    animation: png;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+.box-4 {
+    height: 84px;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+.content-2 {
+    font-family: 'Andika';
+    font-size: 40px;
+    color: #222831;
+}
+.box-5 {
+    text-align: center;
+    height: 280px;
+}
+.content-3 {
+    font-size: 22px;
+    color: #222831;
+}
+.box-6 {
+    text-align: center;
+    height: 180px;
+}
+.box-5:hover{
+    animation: box-hover 0.5s 1 alternate;
+}
+.box-6:hover{
+    animation: box-hover 0.5s 1 alternate;
+}
+.box-7 {
+    text-align: center;
+    height: 100px;
+}
+.box-8 {
+    text-align: center;
+    height: 100px;
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Saira Stencil One';
+    font-size: 26px;
+    color: #1E212D;
+}
+.content-4 {
+    font-family: 'Andika';
+    font-size: 13px;
+    color: #1E212D;
+}
+/*page*/
+.content-1-1 {
+    font-family: 'Andika';
+    font-size: 40px;
+    color: #222831;
+}
+.box-1-1{
+    text-align: center;
+}
+.content-1-2{
+    font-family: 'Andika';
+    font-size: 13px;
+    color: #222831;
+}
+.content-1-3{
+    font-family: 'Andika';
+    font-size: 13px;
+    color: #A20A0A;
+}
+.img-hover:hover{
+    animation: box-hover 0.5s 1 alternate;
+}
+@keyframes png{
+    to{
+        transform: scale(1.05);
+    }
+    from{
+        transform: scale(1);
+    }
+}
+@keyframes box-hover{
+    0%{
+        opacity: 0.5;
+        transform: scale(1.05);
+    }
+
+    50%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
